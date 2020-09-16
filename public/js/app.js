@@ -32253,6 +32253,14 @@ var map = {
 		0,
 		4
 	],
+	"./Error": [
+		"./resources/js/Pages/Error.vue",
+		5
+	],
+	"./Error.vue": [
+		"./resources/js/Pages/Error.vue",
+		5
+	],
 	"./Home": [
 		"./resources/js/Pages/Home.vue",
 		2

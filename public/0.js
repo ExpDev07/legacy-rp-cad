@@ -299,13 +299,12 @@ var render = function() {
         _c(
           "div",
           {
-            staticClass:
-              "flex-1 flex items-center justify-center text-center p-5"
+            staticClass: "flex-1 flex items-center justify-center text-center"
           },
           [
             _c(
               "div",
-              { staticClass: "container mx-auto max-w-lg" },
+              { staticClass: "container mx-auto max-w-lg py-12" },
               [_vm._t("default")],
               2
             )

@@ -204,7 +204,9 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("p", { staticClass: "text-lg" }, [
-        _vm._v("\n            Opprett en ny bruker.\n        ")
+        _vm._v(
+          "\n            Opprett en ny bruker. Alle brukere må godkjennes.\n        "
+        )
       ])
     ])
   }

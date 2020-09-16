@@ -4,8 +4,8 @@
             <!-- Logo -->
             <cad-header />
             <!-- Slot -->
-            <div class="flex-1 flex items-center justify-center text-center p-5">
-                <div class="container mx-auto max-w-lg">
+            <div class="flex-1 flex items-center justify-center text-center">
+                <div class="container mx-auto max-w-lg py-12">
                     <slot />
                 </div>
             </div>

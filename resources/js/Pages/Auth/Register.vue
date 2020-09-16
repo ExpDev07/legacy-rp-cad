@@ -6,7 +6,7 @@
             </h1>
 
             <p class="text-lg">
-                Opprett en ny bruker.
+                Opprett en ny bruker. Alle brukere må godkjennes.
             </p>
         </div>
 
