@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
 use Inertia\Inertia;
 
@@ -25,6 +26,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        // Issue with MySQL < 5.7
+        Schema::defaultStringLength(191);
+
         // Share current user.
         Inertia::share('user', static function ()
         {
