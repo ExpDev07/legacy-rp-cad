@@ -11,8 +11,8 @@
         </div>
 
         <form @submit.prevent="login()" class="mb-6">
-            <input class="block w-full rounded text-black px-4 py-3 mb-4" type="text" placeholder="E-post" v-model="form.email" />
-            <input class="block w-full rounded text-black px-4 py-3 mb-4" type="password" placeholder="Passord" v-model="form.password" />
+            <cad-input class="block w-full mb-4" type="text" placeholder="E-post" v-model="form.email" />
+            <cad-input class="block w-full mb-4" type="password" placeholder="Passord" v-model="form.password" />
 
             <cad-button type="submit">
                 Login
@@ -27,12 +27,14 @@
 
 <script>
 import BasicLayout from "../../Layouts/Basic";
-import CadButton from "../../components/Button";
+import CadButton from "../../Components/Button";
+import CadInput from "../../Components/Input";
 
 export default {
     layout: BasicLayout,
     components: {
         CadButton,
+        CadInput,
     },
     data() {
         return {

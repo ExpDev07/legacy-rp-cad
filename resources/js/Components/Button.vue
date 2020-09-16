@@ -1,5 +1,5 @@
 <template>
-    <button :type="type" class="button block w-full rounded px-4 py-3">
+    <button :type="type" class="bg-yellow-600 hover:bg-yellow-400 text-black block w-full rounded px-4 py-3">
         <slot />
     </button>
 </template>
@@ -14,10 +14,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.button {
-    background-color: #FFDA00;
-    color: black;
-}
-</style>

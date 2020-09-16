@@ -3,3 +3,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    transition: 500ms;
+}
+
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: #212A3B;
+    color: #f8f8f8;
+}

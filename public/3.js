@@ -12,7 +12,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _Layouts_Basic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Layouts/Basic */ "./resources/js/Layouts/Basic.vue");
-/* harmony import */ var _components_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Button */ "./resources/js/components/Button.vue");
+/* harmony import */ var _Components_Button__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../Components/Button */ "./resources/js/Components/Button.vue");
+/* harmony import */ var _Components_Input__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../Components/Input */ "./resources/js/Components/Input.vue");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -48,10 +49,12 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   layout: _Layouts_Basic__WEBPACK_IMPORTED_MODULE_1__["default"],
   components: {
-    CadButton: _components_Button__WEBPACK_IMPORTED_MODULE_2__["default"]
+    CadButton: _Components_Button__WEBPACK_IMPORTED_MODULE_2__["default"],
+    CadInput: _Components_Input__WEBPACK_IMPORTED_MODULE_3__["default"]
   },
   data: function data() {
     return {
@@ -116,47 +119,27 @@ var render = function() {
         }
       },
       [
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.form.email,
-              expression: "form.email"
-            }
-          ],
-          staticClass: "block w-full rounded text-black px-4 py-3 mb-4",
+        _c("cad-input", {
+          staticClass: "block w-full mb-4",
           attrs: { type: "text", placeholder: "E-post" },
-          domProps: { value: _vm.form.email },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.form, "email", $event.target.value)
-            }
+          model: {
+            value: _vm.form.email,
+            callback: function($$v) {
+              _vm.$set(_vm.form, "email", $$v)
+            },
+            expression: "form.email"
           }
         }),
         _vm._v(" "),
-        _c("input", {
-          directives: [
-            {
-              name: "model",
-              rawName: "v-model",
-              value: _vm.form.password,
-              expression: "form.password"
-            }
-          ],
-          staticClass: "block w-full rounded text-black px-4 py-3 mb-4",
+        _c("cad-input", {
+          staticClass: "block w-full mb-4",
           attrs: { type: "password", placeholder: "Passord" },
-          domProps: { value: _vm.form.password },
-          on: {
-            input: function($event) {
-              if ($event.target.composing) {
-                return
-              }
-              _vm.$set(_vm.form, "password", $event.target.value)
-            }
+          model: {
+            value: _vm.form.password,
+            callback: function($$v) {
+              _vm.$set(_vm.form, "password", $$v)
+            },
+            expression: "form.password"
           }
         }),
         _vm._v(" "),

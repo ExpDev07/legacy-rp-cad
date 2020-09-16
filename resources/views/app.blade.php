@@ -5,6 +5,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Icon -->
+        <link rel="icon" href="{{ asset('/images/legacy-logo.png') }}">
+
         <!-- Title -->
         <title>Legacy Roleplay: CAD</title>
 
