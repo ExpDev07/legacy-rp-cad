@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ace4dc9-c094-49a2-b157-28dfdd9a9e17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/Basic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/Basic.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600209890006</updated>
       <workItem from="1600209891252" duration="10268000" />
-      <workItem from="1600255530411" duration="6439000" />
+      <workItem from="1600255530411" duration="6941000" />
     </task>
     <servers />
   </component>
@@ -218,10 +219,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600210019320" />
-    <state x="728" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600216602019">
+    <state x="728" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600270547137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600216602019" />
+    <state x="728" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600270547137" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600216704617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

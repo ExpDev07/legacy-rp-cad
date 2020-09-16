@@ -304,7 +304,7 @@ var render = function() {
           [
             _c(
               "div",
-              { staticClass: "container mx-auto max-w-lg py-12" },
+              { staticClass: "container mx-auto max-w-lg px-5 py-12" },
               [_vm._t("default")],
               2
             )

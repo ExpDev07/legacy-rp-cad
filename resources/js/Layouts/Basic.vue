@@ -5,7 +5,7 @@
             <cad-header />
             <!-- Slot -->
             <div class="flex-1 flex items-center justify-center text-center">
-                <div class="container mx-auto max-w-lg py-12">
+                <div class="container mx-auto max-w-lg px-5 py-12">
                     <slot />
                 </div>
             </div>
