@@ -28,8 +28,8 @@ This list only contains some of the most notable contributors. For the full list
 ## Pictures
 (more will be posted soon once some design decisions are finalized).
 
-<img src="https://github.com/ExpDev07/legacy-rp-cad/raw/master/.github/screenshots/login.PNG" alt="Logging in" />
 <img src="https://github.com/ExpDev07/legacy-rp-cad/raw/master/.github/screenshots/register.PNG" alt="Logging in" />
+<img src="https://github.com/ExpDev07/legacy-rp-cad/raw/master/.github/screenshots/login.PNG" alt="Logging in" />
 
 ## Contributing
 This section describes how you can help contribute.
