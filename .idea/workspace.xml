@@ -20,8 +20,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ace4dc9-c094-49a2-b157-28dfdd9a9e17" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/CharacterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/Reports/ArrestReportController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/Reports/FineReportController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/ArrestReport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Character.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/FineReport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Player.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Vehicle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/CharacterFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/PlayerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/factories/VehicleFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_17_000757_create_arrest_reports_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_17_002931_create_fine_reports_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_17_003806_create_players_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_17_003830_create_characters_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_17_005304_create_vehicles_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/PlayerSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/UserSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/penal_code.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Components/Modal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Components/SearchCharacter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Components/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/ArrestReport/New.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/Pages/FineReport/New.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/267bad1f-d7cc-426a-a713-b7f6f5ae08a4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/267bad1f-d7cc-426a-a713-b7f6f5ae08a4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/Basic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/Basic.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LogoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/Auth/LogoutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Web/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/nprogress.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/nprogress.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Components/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Components/Button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Components/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Components/Input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Layouts/Dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Layouts/Dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Auth/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Auth/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Auth/Register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Auth/Register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/Pages/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/Pages/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,18 +226,20 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.59" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\public" />
+      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\app\Http\Controllers\Web" />
+      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\app\Http\Controllers\Api" />
+      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\app\Http\Controllers\Reports" />
+      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\app\Http\Controllers\Auth" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad" />
       <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\public\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\app\Http\Controllers\Auth" />
-      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\resources\js\Pages\Auth" />
-      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\public\images" />
-      <recent name="C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -193,7 +257,17 @@
       <option name="presentableId" value="Default" />
       <updated>1600209890006</updated>
       <workItem from="1600209891252" duration="10268000" />
-      <workItem from="1600255530411" duration="6941000" />
+      <workItem from="1600255530411" duration="7104000" />
+      <workItem from="1600299985600" duration="4851000" />
+      <workItem from="1600348723257" duration="6080000" />
+      <workItem from="1600354871553" duration="1439000" />
+      <workItem from="1600359982814" duration="16145000" />
+      <workItem from="1600381873860" duration="3515000" />
+      <workItem from="1600387755653" duration="345000" />
+      <workItem from="1600437096875" duration="7836000" />
+      <workItem from="1600450464675" duration="6794000" />
+      <workItem from="1600479472105" duration="655000" />
+      <workItem from="1600528268965" duration="1673000" />
     </task>
     <servers />
   </component>
@@ -210,6 +284,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -219,14 +294,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600210019320" />
-    <state x="728" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600270547137">
+    <state x="728" y="318" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600354621476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="728" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600270547137" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600216704617">
+    <state x="728" y="318" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600354621476" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600377414427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600216704617" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600377414427" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600302663450">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600302663450" />
     <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1600210679096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -243,5 +322,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600210679096" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1600354850314">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600354850314" />
+    <state x="681" y="261" width="540" height="540" key="StructurePopup" timestamp="1600454683482">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="540" height="540" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1600454683482" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1600364846438">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600364846438" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600349783405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600349783405" />
   </component>
 </project>

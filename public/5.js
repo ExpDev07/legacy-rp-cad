@@ -119,9 +119,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("footer", { staticClass: "text-center bg-black p-5" }, [
-      _c("p", [
-        _vm._v("\n        © Eiendom av Legacy Roleplay - Politiet\n    ")
+    return _c("footer", { staticClass: "text-center bg-black" }, [
+      _c("div", { staticClass: "container mx-auto p-5" }, [
+        _c("p", [
+          _vm._v(
+            "\n            © Eiendom av Legacy Roleplay - Politiet\n        "
+          )
+        ])
       ])
     ])
   }

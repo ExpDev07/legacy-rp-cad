@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Web;
 
+use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -21,7 +22,7 @@ class UserController extends Controller
         // Validate.
         $data = $request->validate([
             'name'             => [ 'required' ],
-            'email'            => [ 'required', 'unique:users' ],
+            'email'            => [ 'required', 'unique:cad_users' ],
             'password'         => [ 'required' ],
             // 'confirm_password' => [ 'required' ],
         ]);

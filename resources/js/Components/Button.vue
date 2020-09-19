@@ -1,5 +1,8 @@
 <template>
-    <button :type="type" class="bg-yellow-600 hover:bg-yellow-400 text-black block w-full rounded px-4 py-3">
+    <inertia-link :href="href" :class="this.class" v-if="type === 'link'">
+        <slot />
+    </inertia-link>
+    <button :type="type" :class="this.class" v-else>
         <slot />
     </button>
 </template>
@@ -11,6 +14,15 @@ export default {
             type: String,
             default: 'submit',
         },
-    }
+        href: {
+            type: String,
+            default: '/',
+        }
+    },
+    data() {
+        return {
+            class: 'block bg-yellow-600 hover:bg-yellow-400 duration-200 text-black text-center rounded px-4 py-3',
+        }
+    },
 }
 </script>

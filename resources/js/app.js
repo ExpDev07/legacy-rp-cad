@@ -2,9 +2,18 @@ require('./bootstrap');
 
 import Vue from 'vue';
 import { InertiaApp } from '@inertiajs/inertia-vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
 // Use inertia.
 Vue.use(InertiaApp)
+
+// Register global components.
+Vue.component('fa-icon', FontAwesomeIcon);
+
+// Ready font awesome library.
+library.add(fas);
 
 // Get app wrapper.
 const app = document.getElementById('app')

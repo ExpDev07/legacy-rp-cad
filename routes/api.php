@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\CharacterController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+// Resources.
+Route::apiResource('characters', CharacterController::class);
+
+// Logged-in routes.
+Route::middleware('auth:api')->group(static function ()
+{
 });

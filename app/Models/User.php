@@ -8,11 +8,23 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use \Illuminate\Auth\MustVerifyEmail as MustVerifyEmailTrait;
 
+/**
+ * A user of the CAD.
+ *
+ * @package App\Models
+ */
 class User extends Authenticatable implements MustVerifyEmail
 {
     use HasFactory;
     use Notifiable;
     use MustVerifyEmailTrait;
+
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'cad_users';
 
     /**
      * The attributes that are mass assignable.
@@ -45,4 +57,5 @@ class User extends Authenticatable implements MustVerifyEmail
         'approved'          => 'boolean',
         'email_verified_at' => 'datetime',
     ];
+
 }
