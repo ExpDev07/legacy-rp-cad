@@ -456,7 +456,12 @@ var render = function() {
               _vm._v(" "),
               _c("main", { staticClass: "mb-10" }, [_vm._t("default")], 2),
               _vm._v(" "),
-              _c("footer", { staticClass: "mb-5" }, [_vm._t("footer")], 2)
+              _c(
+                "footer",
+                { staticClass: "flex items-center mb-5" },
+                [_vm._t("footer")],
+                2
+              )
             ]
           )
         ]
@@ -559,12 +564,22 @@ var render = function() {
                   _c(
                     "h1",
                     { staticClass: "text-3xl font-bold text-yellow-600 mb-4" },
-                    [_vm._v("\n                Velg person\n            ")]
+                    [_vm._v("\n                Personsøk\n            ")]
                   ),
                   _vm._v(" "),
                   _c("p", [
+                    _vm._v("\n                Søket ditt ga "),
+                    _c("span", { staticClass: "font-bold" }, [
+                      _vm._v(
+                        _vm._s(
+                          _vm.characters.length >= 15
+                            ? "15+"
+                            : _vm.characters.length
+                        ) + " personer"
+                      )
+                    ]),
                     _vm._v(
-                      "\n                Søket ditt ga disse personene. Velg en for å gå videre.\n            "
+                      ". Velg den du er ute etter ved å trykke på den blå knappen i tabellen.\n            "
                     )
                   ])
                 ]
@@ -748,7 +763,8 @@ var render = function() {
                       _c(
                         "button",
                         {
-                          staticClass: "rounded bg-blue-600 px-3 py-2",
+                          staticClass:
+                            "rounded duration-200 bg-blue-600 hover:bg-blue-500 px-3 py-2",
                           attrs: { type: "button" },
                           on: {
                             click: function($event) {

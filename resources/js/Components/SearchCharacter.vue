@@ -17,10 +17,10 @@
             <!-- Header -->
             <template #header>
                 <h1 class="text-3xl font-bold text-yellow-600 mb-4">
-                    Velg person
+                    Personsøk
                 </h1>
                 <p>
-                    Søket ditt ga disse personene. Velg en for å gå videre.
+                    Søket ditt ga <span class="font-bold">{{ characters.length >= 15 ? '15+' : characters.length }} personer</span>. Velg den du er ute etter ved å trykke på den blå knappen i tabellen.
                 </p>
             </template>
             <!-- Table -->
@@ -44,7 +44,7 @@
                             Fødselsdato
                         </th>
                         <th class="px-6 py-3 border-b-2 border-gray-600">
-
+                            <!-- Action -->
                         </th>
                     </tr>
                 </thead>
@@ -67,15 +67,15 @@
                             {{ character.date_of_birth }}
                         </td>
                         <td class="px-6 py-3 border-b border-gray-600">
-                            <button type="button" class="rounded bg-blue-600 px-3 py-2" @click="selectCharacter(character)">
+                            <button type="button" class="rounded duration-200 bg-blue-600 hover:bg-blue-500 px-3 py-2" @click="selectCharacter(character)">
                                 <fa-icon icon="check-circle" />
                             </button>
                         </td>
                     </tr>
                 </tbody>
             </table>
-            <!-- Footer -->
             <template #footer>
+                <!-- Close modal button -->
                 <button type="button" class="rounded bg-red-600 px-6 py-2" @click="showModal = false">
                     <fa-icon class="mr-2" icon="window-close" /> Lukk
                 </button>

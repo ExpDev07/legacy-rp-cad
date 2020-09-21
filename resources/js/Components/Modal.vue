@@ -12,7 +12,7 @@
                 <slot />
             </main>
             <!-- Footer -->
-            <footer class="mb-5">
+            <footer class="flex items-center mb-5">
                 <slot name="footer" />
             </footer>
         </div>
