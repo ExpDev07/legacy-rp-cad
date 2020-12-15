@@ -1,11 +1,14 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
+    purge: [
+        './resources/views/**/*.blade.php',
+        './resources/js/**/*.vue'
+    ],
     future: {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
     },
-    purge: [],
     theme: {
         extend: {
             colors: {
@@ -17,5 +20,8 @@ module.exports = {
         },
     },
     variants: {},
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography'),
+        require('@tailwindcss/forms'),
+    ],
 }

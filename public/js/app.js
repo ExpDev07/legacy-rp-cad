@@ -53311,8 +53311,8 @@ window.axios.defaults.headers.common['X-CSRF-TOKEN'] = $('meta[name="csrf-token"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\mariu\Desktop\laravel\legacy-roleplay-cad\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\Users\mariu\Desktop\laravel\legacy-rp-cad\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\mariu\Desktop\laravel\legacy-rp-cad\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })

@@ -10,23 +10,28 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
-        "axios": "^0.19",
-        "cross-env": "^7.0",
-        "laravel-mix": "^5.0.1",
-        "lodash": "^4.17.19",
-        "resolve-url-loader": "^3.1.0",
-        "vue-template-compiler": "^2.6.12"
-    },
-    "dependencies": {
         "@babel/plugin-syntax-dynamic-import": "^7.8.3",
         "@fortawesome/fontawesome-svg-core": "^1.2.30",
         "@fortawesome/free-solid-svg-icons": "^5.14.0",
         "@fortawesome/vue-fontawesome": "^2.0.0",
         "@inertiajs/inertia": "^0.2.3",
         "@inertiajs/inertia-vue": "^0.2.3",
+        "@tailwindcss/forms": "^0.2.1",
+        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "@tailwindcss/typography": "^0.3.1",
+        "autoprefixer": "^9.8.6",
+        "axios": "^0.19",
+        "cross-env": "^5.1",
         "jquery": "^3.5.1",
+        "laravel-mix": "^4.0.7",
+        "lodash": "^4.17.13",
+        "popper.js": "^1.12",
+        "postcss": "^7.0.35",
         "postcss-import": "^12.0.1",
-        "tailwindcss": "^1.8.10",
-        "vue": "^2.6.12"
-    }
+        "resolve-url-loader": "^3.1.0",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+        "vue": "^2.6.12",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {}
 }
